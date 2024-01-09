@@ -1,5 +1,5 @@
 CREATE TABLE quotes (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id VARCHAR(255) PRIMARY KEY,
     quote TEXT NOT NULL,
     author VARCHAR(255)
 );
