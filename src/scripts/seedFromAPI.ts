@@ -30,7 +30,6 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-let limitNumber: number
 
 rl.question('How many quotes do you want to populate?\n', (input) => {
 
