@@ -8,6 +8,7 @@
     "build": "tsc",
     "start:prod": "node dist/index.js",
     "seed:api": "ts-node src/scripts/seedFromAPI.ts",
+    "clean:db": "ts-node src/scripts/cleanDB.ts",
     "wb": "ts-node src/workbench.ts"
   },
   "keywords": [],
